@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>web page</title>
+  <link rel="stylesheet" href="in.css">
+  <style>
+    .coffee-item p{
+      font-family: 'Nunito', sans-serif;
+    }
+    .types-of-coffee{
+      background:white;
+    }
+    #demo1{
+      color:rgb(8, 130, 174);
+    }
+    .coffee-item:hover img {
+      opacity: 0.7;
+       transform: scale(1.1);}
+  </style>
+</head>
+<body>
+  <div class="image">
+  </div>
+  <header class="header">
+    <a href="a" class="logo">
+      <img src="logo.png" alt="coffee">
+    </a>
+    <nav class="navbar">
+      <div id="close" class="fas fa-times"></div>
+      <a href="#" class="nav_items">home</a>
+      <a href="#" class="nav_items">about</a>
+      <a href="#" class="nav_items">menu</a>
+      <a href="#" class="nav_items">contact</a>
+      <a href="#" class="nav_items">offers</a>
+      <a href="#" class="btn1">login</a>
+      <a href="#" class="btn1">signup</a>
+    </nav>
+    <div id="menu" class="fas fa-bars"></div>
+  </header>
+<section class="home">
+  <div class="content">
+    <h1 class="title"><span id="demo">cafe</span>&nbsp;<span>nova</span></h1>
+    <p class="description">Start your day with a smile and a cup of happiness. We offer delicious coffee drinks and light bites to fuel your day.</p><br><br>
+    <a href="#" class="btn">get started</a>
+  </div>
+  <div class="image">
+    <img src="coffee.jpg" alt="" data-speed="-3" class="move">
+</div>
+</section>
+<section class="types-of-coffee">
+  <h2 class="section-title">signature <span id="demo1">coffees</span> of our shop</h2>
+  <div class="coffee-container">
+    <div class="coffee-item">
+      <img src="https://lifeboostcoffee.com/cdn/shop/articles/feature_image_1_53da0ffb-c776-4515-a7ae-fb6cb119a913.jpg?v=1699168682"alt="Espresso">
+      <h3 class="coffee-name">Espresso</h3>
+      <p class="coffee-description">A concentrated coffee brewed by forcing a small amount of nearly boiling water through finely-ground coffee beans.</p>
+    </div>
+    <div class="coffee-item">
+      <img src="https://www.foodandwine.com/thmb/FPlfMcs5yCtv82MvoF1A1h_i0OY=/750x0/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/Partners-Cappuccino-FT-BLOG0523-d2eed8fcd48d464282176339908662f7.jpg" alt="Cappuccino">
+      <h3 class="coffee-name">Cappuccino</h3>
+      <p class="coffee-description">A classic Italian coffee made with equal parts espresso, steamed milk, and milk foam. It has a creamy texture and is often topped with a sprinkle of cocoa powder or cinnamon.</p>
+    </div>
+    <div class="coffee-item">
+      <img src="https://cdn.dotpe.in/longtail/store-items/1332303/IX4B7CFe.jpeg">
+      <h3 class="coffee-name">coldcoffee</h3>
+      <p class="coffee-description">Our Cold Coffee is perfect for hot days. It's made with coffee, milk, ice, and a touch of sweetness. It's cool, creamy, and refreshing. You can even add whipped cream on top for an extra treat!</p>
+    </div>
+    <div class="coffee-item">
+      <img src="https://img.freepik.com/premium-photo/affogato-coffee-with-ice-cream_136595-12998.jpg">
+      <h3 class="coffee-name">cold brew</h3>
+      <p class="coffee-description">Our Cold Coffee is perfect for hot days. It's made with coffee, milk, ice, and a touch of sweetness. It's cool, creamy, and refreshing. You can even add whipped cream on top for an extra treat!</p>
+    </div>
+    <div class="coffee-item">
+      <img src="https://www.newlifeonahomestead.com/wp-content/uploads/2019/03/affagato-coffee-500x500.jpg">
+      <h3 class="coffee-name">affogato</h3>
+      <p class="coffee-description">Combine one cup of hot coffee with one scoop of ice cream. Drizzle with chocolate syrup and chocolate shavings if desired.</p>
+    </div>
+    <div class="coffee-item">
+      <img src="https://www.recipetineats.com/wp-content/uploads/2023/06/Affogato_0.jpg">
+      <h3 class="coffee-name">iced coffee</h3>
+      <p class="coffee-description">Our Iced Coffee is perfect for warm days. It's made with freshly brewed coffee, poured over ice cubes, and optionally sweetened with sugar or flavored syrup. It's refreshing, bold, and a great way to enjoy your favorite coffee cold!</p>
+    </div>
+  </div>
+</section>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.5.1/gsap.min.js"></script>
+<script src="in.js"></script>
+</body>
+</html>
